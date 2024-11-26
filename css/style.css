@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 60px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 /* Regole header */
 header {
     background-color: #FF6900;
@@ -15,11 +20,50 @@ header {
     z-index: 1000;
 }
 
-/* Regole contenuto principale */
-body {
-    padding-top: 60px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.header-container {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-side  {
+    width: 25%;
+}
+
+.header-side>a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo {
+    height: 100%;
+    width: 25%;
+}
+
+.logo>a {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 60%;
+    width: auto;
+}
+
+.header-right {
+    text-align: right;
+}
+
+/* Regole contenuto principale */
 
 .container {
     display: flex;
