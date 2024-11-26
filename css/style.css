@@ -142,6 +142,10 @@ header {
     z-index: 100;
 }
 
+.like:hover {
+    color: red;
+}
+
 .prod-description {
     align-self: flex-start;
 }
