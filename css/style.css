@@ -3,3 +3,100 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Regole header */
+header {
+    background-color: #FF6900;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Regole contenuto principale */
+body {
+    padding-top: 60px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    /* DEBUG */
+    background-color: grey;
+}
+
+.product {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* DEBUG */
+    background-color: red;
+}
+
+.img-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.img-box img {
+    width: 100%;
+    height: auto;
+}
+
+.disc-and-sust {
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 85%;
+}
+
+.disc-and-sust * {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.discount {
+    background-color: red;
+}
+
+.sustainability {
+    background-color: green;
+    width: auto;
+    height: auto;
+}
+
+.like {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 2%;
+}
+
+
+
+.prod-description {
+    align-self: flex-start;
+}
+
+
+
+/* Regole footer */
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    width: 100%;
+}
